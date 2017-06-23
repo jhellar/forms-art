@@ -1,0 +1,28 @@
+{
+  "name": "forms-art",
+  "version": "1.0.0",
+  "description": "Red Hat Mobile Aplication platform - AppForms Acceptance & Regression Tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhellar/forms-art.git"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "fhc-promise": "git+https://github.com/jhellar/fhc-promise.git",
+    "fs-extra": "^3.0.1",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "rimraf": "^2.6.1",
+    "simple-git": "^1.73.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0"
+  }
+}

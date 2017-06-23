@@ -1,0 +1,50 @@
+{
+  "text": "abc",
+  "number": 123,
+  "website": "a.bc",
+  "radio": "Option 1",
+  "location": {
+    "long": 16.5769,
+    "lat": 49.2312
+  },
+  "barcode": {
+    "format": "123",
+    "text": "123"
+  },
+  "paragraph": "abc",
+  "email": "abc@abc.org",
+  "dropdown": "Option 1",
+  "checkboxes": {
+    "selections": [
+      "Option 1"
+    ]
+  },
+  "map": {
+    "zoom": 12,
+    "long": 16.57685390000006,
+    "lat": 49.2312217
+  },
+  "date": "2017-06-23 08:49:22",
+  "slider": "2",
+  "file": {
+    "fileName": "abc",
+    "fileType": "image/png",
+    "fileSize": 123,
+    "fileUpdateTime": 1498200579561,
+    "hashName": "filePlaceHolder12345"
+  },
+  "signature": {
+    "fileName": "abc",
+    "fileType": "image/png",
+    "fileSize": 123,
+    "fileUpdateTime": 1498200579561,
+    "hashName": "filePlaceHolder12346"
+  },
+  "photo": {
+    "fileName": "abc",
+    "fileType": "image/png",
+    "fileSize": 123,
+    "fileUpdateTime": 1498200579561,
+    "hashName": "filePlaceHolder12347"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Test form",
+  "name": "studio-art4",
+  "dataTargets": [],
+  "dataSources": {
+    "formDataSources": []
+  },
+  "subscribers": [],
+  "pageRules": [],
+  "fieldRules": [],
+  "pages": [
+    {
+      "name": "",
+      "fields": [
+        {
+          "required": true,
+          "type": "text",
+          "name": "text",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "description": "Test form",
+  "name": "studio-art4",
+  "dataTargets": [],
+  "dataSources": {
+    "formDataSources": []
+  },
+  "subscribers": [],
+  "pageRules": [],
+  "fieldRules": [],
+  "pages": [
+    {
+      "name": "",
+      "fields": [
+        {
+          "required": true,
+          "type": "text",
+          "name": "text",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "number",
+          "name": "number",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "url",
+          "name": "website",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "radio",
+          "name": "radio",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "options": [
+                {
+                  "label": "Option 1",
+                  "checked": false
+                },
+                {
+                  "label": "Option 2",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "location",
+          "name": "location",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "locationUnit": "latlong"
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "file",
+          "name": "file",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "signature",
+          "name": "signature",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "barcode",
+          "name": "barcode",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "textarea",
+          "name": "paragraph",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "emailAddress",
+          "name": "email",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "dropdown",
+          "name": "dropdown",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "options": [
+                {
+                  "label": "Option 1",
+                  "checked": false
+                },
+                {
+                  "label": "Option 2",
+                  "checked": false
+                }
+              ],
+              "include_blank_option": false
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "checkboxes",
+          "name": "checkboxes",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true,
+              "min": 1
+            },
+            "definition": {
+              "options": [
+                {
+                  "label": "Option 1",
+                  "checked": false
+                },
+                {
+                  "label": "Option 2",
+                  "checked": false
+                }
+              ]
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "locationMap",
+          "name": "map",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "photo",
+          "name": "photo",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "photoSource": "both",
+              "photoType": "jpeg",
+              "saveToPhotoAlbum": "true"
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "dateTime",
+          "name": "date",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "datetimeUnit": "datetime",
+              "dateTimeFormat": "YYYY-MM-DD HH:mm:ss"
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": true,
+          "type": "sliderNumber",
+          "name": "slider",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true,
+              "min": 1,
+              "max": 10
+            },
+            "definition": {
+              "stepSize": 1
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": false,
+          "type": "sectionBreak",
+          "name": "section",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        },
+        {
+          "required": false,
+          "type": "readOnly",
+          "name": "read",
+          "fieldCode": null,
+          "adminOnly": false,
+          "fieldOptions": {
+            "validation": {
+              "validateImmediately": true
+            },
+            "definition": {
+              "options": [
+                {
+                  "label": "Read Only Text Paragraph"
+                }
+              ]
+            }
+          },
+          "repeating": false,
+          "dataSourceType": "static"
+        }
+      ]
+    }
+  ]
+}
